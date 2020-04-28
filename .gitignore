@@ -128,7 +128,9 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-data
+data/cord-19
+data/baseline
 
 .idea
 
+*.mallet
