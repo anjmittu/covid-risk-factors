@@ -16,4 +16,6 @@ WORKDIR /opt/app
 
 RUN pip install -r requirements.txt
 
+ENV PYTHONPATH="${PYTHONPATH}:/usr/src/myapp/"
+
 ENTRYPOINT ["/bin/bash"]

@@ -7,10 +7,10 @@ from data.data_utils import process_file
 PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 directories = [
-        "comm_use_subset"
-        # "biorxiv_medrxiv",
-        # "noncomm_use_subset",
-        # "custom_license"
+        "comm_use_subset",
+        "biorxiv_medrxiv",
+        "noncomm_use_subset",
+        "custom_license"
     ]
 
 corona_features = {"text": [None], "title": [None], "authors": [None], "authors_institutions": [None],
@@ -21,7 +21,7 @@ for directory in directories:
     print("Getting filenames for {}".format(directory))
     json_filenames = glob.glob(os.path.join(PROJECT_ROOT, "data/cord-19/{}/**/*.json".format(directory)), recursive=True)
     print("Loading papers to dataframe")
-    for file_name in json_filenames[:10000]:
+    for file_name in json_filenames:
         with open(file_name) as json_data:
             data = json.load(json_data)
         clean_file = process_file(data)

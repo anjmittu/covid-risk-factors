@@ -29,7 +29,6 @@ $ mallet train-topics  --input baseline_abstracts.mallet --num-topics 20
 
 ## Run a topic model on only the full papers
 ```
-$ export PYTHONPATH="${PYTHONPATH}:/usr/src/myapp/"
 $ cd mallet-baseline
 $ python3 preprocess_papers.py
 $ mallet import-file --input ../data/baseline/papers.csv --output baseline_papers.mallet --label 0 --data 2 --remove-stopwords --keep-sequence
@@ -37,5 +36,5 @@ $ mallet import-file --input ../data/baseline/papers.csv --output baseline_paper
 
 Run the model
 ```
-$ mallet train-topics  --input baseline_papers.mallet --num-topics 20
+$ mallet train-topics  --input baseline_papers.mallet --num-topics 20 --output-state output/baseline_papers_topic_state.gz --output-topic-keys output/baseline_papers_keys.txt --output-doc-topics output/baseline_papers_compostion.txt --optimize-interval 20
 ```

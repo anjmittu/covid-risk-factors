@@ -134,3 +134,4 @@ data/baseline
 .idea
 
 *.mallet
+*/output
