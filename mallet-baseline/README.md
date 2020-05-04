@@ -14,19 +14,6 @@ Note: Before running, download the data from https://www.kaggle.com/allen-instit
 place it in the directory `covid-risk-factors/data/cord-19/`
 
 
-## Run a topic model on only the abstracts
-Prepare the data
-```
-$ cd mallet-baseline
-$ python3 preprocess_abstracts.py
-$ mallet import-file --input ../data/baseline/abstracts.csv --output baseline_abstracts.mallet --label 0 --data 2 --remove-stopwords --keep-sequence
-```
-
-Run the model
-```
-$ mallet train-topics  --input baseline_abstracts.mallet --num-topics 20
-```
-
 ## Run a topic model on only the full papers
 ```
 $ cd mallet-baseline
@@ -36,5 +23,15 @@ $ mallet import-file --input ../data/baseline/papers.csv --output baseline_paper
 
 Run the model
 ```
-$ mallet train-topics  --input baseline_papers.mallet --num-topics 20 --output-state output/baseline_papers_topic_state.gz --output-topic-keys output/baseline_papers_keys.txt --output-doc-topics output/baseline_papers_compostion.txt --optimize-interval 20
+$ mallet train-topics  --input baseline_papers.mallet --num-topics 30 --output-state output/baseline_papers_topic_state.gz --output-topic-keys output/baseline_papers_keys.txt --output-doc-topics output/baseline_papers_compostion.txt --optimize-interval 30
+```
+
+Print out the top topics in order
+```
+$ python3 sort_keys.py
+```
+
+Print out the top topics associated with each epoch
+```
+$ python3 sort_by_time.py
 ```

@@ -2,6 +2,33 @@
 Tools to process the data from https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge
 """
 
+# NOTE: epoch 0 is the 'undefined' date time
+import datetime
+
+disease_epoch_intervals = {
+    "pre_sars": {
+        "start": datetime.date(1900, 1, 1),
+        "end": datetime.date(2002, 11, 27),
+        "epoch": 1
+    },
+    "pre_mers": {
+        "start": datetime.date(2002, 11, 28),
+        "end": datetime.date(2012, 6, 1),
+        "epoch": 2
+    },
+    "pre_covid": {
+        "start": datetime.date(2012, 6, 2),
+        "end": datetime.date(2019, 12, 1),
+        "epoch": 3
+    },
+    "post_covid": {
+        "start": datetime.date(2019, 12, 2),
+        "end": datetime.date(2100, 1, 1),
+        "epoch": 4
+    }
+}
+
+
 def clean_text(text_blocks):
     """
     text_blocks: list of dict objects [{}, {}], each with the 'text' property
@@ -12,7 +39,28 @@ def clean_text(text_blocks):
     return full_text
 
 
-def process_file(json_file):
+def get_disease_epoch(pub_date_str):
+
+    if not pub_date_str:
+        pub_date = None
+    elif len(pub_date_str) == 4:
+        # Edge case where only the year is specified, we default to July 1 of that year to cut the year
+        pub_date = datetime.date(int(pub_date_str), 7, 1)
+    else:
+        try:
+            pub_date = datetime.datetime.strptime(pub_date_str, "%Y-%m-%d").date()
+        except Exception as e:
+            print("Odd date format ", pub_date_str)
+    disease_epoch = 0
+    if pub_date:
+        for _epoch in disease_epoch_intervals:
+            epoch = disease_epoch_intervals[_epoch]
+            if pub_date >= epoch["start"] and pub_date <= epoch["end"]:
+                disease_epoch = epoch["epoch"]
+    return disease_epoch
+
+
+def process_file(json_file, article_metadata):
     """
     Function to take in a single json object from the Covid dataset and
     extract some of the metadata we want and combine the text into a single
@@ -21,17 +69,30 @@ def process_file(json_file):
     authors = []
     authors_institutions = []
     metadata = json_file["metadata"]
+    a_meta = article_metadata.get(json_file["paper_id"], {})
     for author in json_file.get("metadata", {}).get("authors"):
         first = author.get("first")
         last = author.get("last")
         authors.append(f"{first} {last}")
-        authors_institutions.append(author.get("affiliation", {}).get("institution"))
+        if author.get("affiliation", {}).get("institution"):
+            authors_institutions.append(author.get("affiliation", {}).get("institution"))
+    doc_text = clean_text(json_file.get("body_text"))
+    # World's hackiest heuristic for removing non-english documents
+    # It's virtually impossible for the word 'the' to not be used
+    # in a document of a certain length
+    if "the" not in doc_text:
+        return {}
+    pub_date_str = a_meta.get("publish_time")
+    disease_epoch = get_disease_epoch(pub_date_str)
     cleaned_doc = {
-        "text": clean_text(json_file.get("body_text")),
+        "text": doc_text,
         "title": metadata.get("title"),
         "authors": authors,
         "authors_institutions": authors_institutions,
         "abstract": clean_text(json_file.get("abstract")),
-        "paper_id": json_file["paper_id"]
+        "paper_id": json_file["paper_id"],
+        "pub_date_str": pub_date_str,
+        "disease_epoch": disease_epoch
     }
     return cleaned_doc
+
