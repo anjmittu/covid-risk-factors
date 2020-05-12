@@ -130,8 +130,10 @@ dmypy.json
 
 data/cord-19
 data/baseline
+data/metalda
+data/embeddings
 
 .idea
 
 *.mallet
-*/output
+output
