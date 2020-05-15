@@ -129,11 +129,11 @@ dmypy.json
 .pyre/
 
 data/cord-19
-data/baseline
-data/metalda
+data/mallet
 data/embeddings
 
 .idea
 
 *.mallet
 output
+corpus.p

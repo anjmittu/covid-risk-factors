@@ -4,6 +4,8 @@ Tools to process the data from https://www.kaggle.com/allen-institute-for-ai/COR
 
 # NOTE: epoch 0 is the 'undefined' date time
 import datetime
+from langdetect import detect
+from langdetect.lang_detect_exception import LangDetectException
 
 disease_epoch_intervals = {
     "pre_sars": {
@@ -76,11 +78,21 @@ def process_file(json_file, article_metadata):
         authors.append(f"{first} {last}")
         if author.get("affiliation", {}).get("institution"):
             authors_institutions.append(author.get("affiliation", {}).get("institution"))
+    authors_institution = ""
+    for a in authors_institutions:
+        if len(a) > 0:
+            authors_institution = a
+            break
+    if authors_institution == "":
+        authors_institution = "Unknown"
     doc_text = clean_text(json_file.get("body_text"))
     # World's hackiest heuristic for removing non-english documents
     # It's virtually impossible for the word 'the' to not be used
     # in a document of a certain length
-    if "the" not in doc_text:
+    try:
+        if len(doc_text) < 10 or detect(doc_text[:1000]) != "en":
+            return {}
+    except LangDetectException:
         return {}
     pub_date_str = a_meta.get("publish_time")
     disease_epoch = get_disease_epoch(pub_date_str)
@@ -88,7 +100,7 @@ def process_file(json_file, article_metadata):
         "text": doc_text,
         "title": metadata.get("title"),
         "authors": authors,
-        "authors_institutions": authors_institutions,
+        "authors_institutions": authors_institution,
         "abstract": clean_text(json_file.get("abstract")),
         "paper_id": json_file["paper_id"],
         "pub_date_str": pub_date_str,

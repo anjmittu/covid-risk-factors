@@ -49,22 +49,26 @@ def evaluate(topics_path="mallet-baseline/output/topic_words.txt",
     total_vocab = 0
     out_vocab = 0
     for topic in topics_list:
-        for term in topic[:n]:
-            total_vocab += 1
-            if embeddings_dict.get(term):
-                in_vocab += 1
-            else:
-                out_vocab += 1
+        if len(topic) > 1:
+            for term in topic[:n]:
+                total_vocab += 1
+                if embeddings_dict.get(term):
+                    in_vocab += 1
+                else:
+                    out_vocab += 1
     print(f"Total {total_vocab}, In {in_vocab}, Out: {out_vocab}")
     cos_sims = []
     for topic in topics_list:
-        cos_sims.append(calculate_topic_avg_cosine(topic, embeddings_dict))
+        if len(topic) > 1:
+            cos_sims.append(calculate_topic_avg_cosine(topic, embeddings_dict))
+    print("Cos Sim of topics: {}".format(cos_sims))
     print(f"Average Cos Sim {sum(cos_sims)/len(cos_sims)}")
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Evaluating output from topic model')
     parser.add_argument('-p', dest='topic_path', help='path to topic_words file')
+    parser.add_argument('-e', dest='embedding', help='path to embeddings file')
     args = parser.parse_args()
     print("Starting...")
-    evaluate(args.topic_path)
+    evaluate(args.topic_path, embeddings_path=args.embedding)
