@@ -1,0 +1,1 @@
+read_stats("../../data/mallet/institution","output/outputs_a0_b0_2");
