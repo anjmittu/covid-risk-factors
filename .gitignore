@@ -127,3 +127,13 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+data/cord-19
+data/mallet
+data/embeddings
+
+.idea
+
+*.mallet
+output
+corpus.p
