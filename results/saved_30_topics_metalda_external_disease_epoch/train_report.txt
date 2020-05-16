@@ -1,0 +1,496 @@
+Effective no. topics=26.949353/30
+Topic 27 probability=0.056487 eff.no.words=2634.507338
+  FREQ:  health (0.023572) care (0.009484) public (0.008861) disease (0.006708) information (0.005909) medical (0.005726) data (0.004845) surveillance (0.004668) control (0.004487) diseases (0.004408) research (0.004363) system (0.004228) response (0.004033) risk (0.004030) emergency (0.003922) outbreak (0.003824) pandemic (0.003741) infectious (0.003693) national (0.003539)
+  SURPRISE:  preparedness ihr competencies staffing telemedicine pharmacists biosurveillance rfid casualty emergencies evd telehealth ghsa goarn chws idsr staffed gphin drills cdc's
+  Top docs: 
+ (4559) 76260c67421abbf69da3c4b0c75204190188a2cc
+ (31075) 8c10cdea8b892f4e8824fa062b1a586db8246f19
+ (37964) c64f38c6df314ef020e7984015750165a6f75ab1
+ (40306) dad07c19c2569928f8f45255150de050a7ef3942
+ (28549) 76265ef68bfb73401e97c8fe5d3a883e78a43401
+ (34029) a4a52942b78204063e7a26124ee51bed61dc4f03
+ (39138) d0ae914bc90468ae1183c3affcafd91a563c6d8d
+ (13348) 869a5a7ca9cf0fc9a2f5cd0332ac7c6b8e8e2ab9
+ (6953) b4977e3f26125c15ddb66fbfc8515e08ad166bf0
+ (24085) 5045b15f09a5acdb94ec3d6851147df687145e63
+
+Topic 4 probability=0.053122 eff.no.words=1402.447927
+  FREQ:  cells (0.042197) virus (0.014706) fig (0.014599) infection (0.013311) cell (0.012810) infected (0.009754) figure (0.009473) viral (0.007931) control (0.007227) mice (0.006388) data (0.006318) observed (0.005502) expression (0.005376) performed (0.005162) compared (0.004815) assay (0.004811) incubated (0.004700) min (0.004695) results (0.004608)
+  SURPRISE:  moi hpi flowjo δδct pbs-treated reed-muench cells/well mock-treated mpscs dpbs dunnett's fbs dmem/f lipin celltiter-glo penicillin-streptomycin antifade gldc d.p.i dmso-treated
+  Top docs: 
+ (1308) 235fab2608254fb0e97f003cef3b4694bc003756
+ (2045) 360fb902fea73a294614ebd95276b59de868786c
+ (24929) 57a50193c033b31f92a1980e80b769eaa4a5d710
+ (25046) 58b9b038e7d43305149f2e4fc50d2aa00f41001f
+ (25673) 5de549ec283f9998171377750a71b5d351fe89c3
+ (3179) 532f2c636fca1caae1f23885b9dc0e3302a0afd5
+ (10977) 8bcbb998e7067bab377471601a3e72e50c2fe24f
+ (33738) a256426b557e7b4c5bd3386d1543ebcd39a98f77
+ (21437) 3a44441e1dd9ea1b401d811d13f73b3804fbc4c7
+ (19526) 2a2098bf05065b18dc38c644f9c1e40973e9950d
+
+Topic 3 probability=0.051933 eff.no.words=4707.595131
+  FREQ:  disease (0.007801) lesions (0.005172) dogs (0.004978) signs (0.004704) clinical (0.004112) cats (0.004010) cells (0.003750) common (0.003711) blood (0.003655) cases (0.003635) tissue (0.003411) small (0.003349) normal (0.003301) include (0.003267) diagnosis (0.003232) animals (0.003186) occur (0.003122) present (0.002964) fluid (0.002633)
+  SURPRISE:  colic ulceration distention esophagus erosions muscularis edematous lipidosis recumbency imha incisors prolapse lymphoplasmacytic eyelid lacrimal laminitis thickened adenomas abscessation lymphosarcoma
+  Top docs: 
+ (30558) 878f5585f859cf81ab6baeefc8f5e1dbdb2bec01
+ (28141) 72a0fc7670cacf3e5e6925e9d2abb04671c3c40b
+ (18082) 1e5267a87d551bc5b6cf7ee31a9946314c34e505
+ (30249) 850d9be2a9f03b423ed691c3ef1746105daa8794
+ (25986) 60561f0e1a02c6d005c857bfb1f96e7df5d2b0cf
+ (21901) 3e19dcc43686493e4e329e94f8da9518eb5d77e5
+ (23521) 4b4e9deaa44ef81f610a6bf52204ad56d2006009
+ (15226) 05fbc9a48ec571d9292767d0ac0e54d318a6eadc
+ (23712) 4ce99f6e680c84e0f140256290cfe958273fac7a
+ (32584) 98bec9b14dc8cce8a81b4b59f153ac534da15ce5
+
+Topic 11 probability=0.051160 eff.no.words=1960.743773
+  FREQ:  cells (0.035793) cell (0.012938) immune (0.012294) mice (0.011125) response (0.009089) infection (0.008188) expression (0.008148) responses (0.006170) lung (0.005923) activation (0.005828) macrophages (0.005727) inflammatory (0.005564) levels (0.005493) cytokines (0.005379) role (0.005229) production (0.005133) increased (0.004719) human (0.004663) cytokine (0.004325)
+  SURPRISE:  cxcl treg tregs foxp ptx pdc fgl sp-d tcr pd-l ifn-g chemoattractant tnf-a perforin nkp chemokines pdcs nkt iel ilc
+  Top docs: 
+ (40031) d8716057edc20cdcb232b1ce062ff2804bfd041d
+ (24280) 5206bbfc99d29f0573e944398e5c0a36aac097b2
+ (26316) 6325b913522300f36c4144f82ccf0bb13564bca6
+ (26029) 60a37c1bf5a320b0db55a51c2cb4c9b69f9ecff7
+ (4925) 7f302add8b117514b8393d55f49c3ded276faf94
+ (18135) 1ed1e516d771a389267a3f112d3c92a3a58f7cea
+ (25062) 58df62e6df26193cbd507ae0d37a03ed1181fe57
+ (5284) 888a2dcee2c34b07d19a0528febb54aad70bdf00
+ (29230) 7c1b1d84d22611ce472b1f7593d594a2f90355ce
+ (19962) 2e07c9fe06f4601ac9723ae3f8e52a2f52e7efb2
+
+Topic 30 probability=0.047829 eff.no.words=2570.182864
+  FREQ:  model (0.015358) data (0.014485) number (0.010679) time (0.008667) models (0.006735) population (0.005602) rate (0.005473) fig (0.004569) network (0.004415) results (0.004299) figure (0.004228) epidemic (0.004187) values (0.004183) individuals (0.004074) case (0.003986) distribution (0.003914) set (0.003904) parameters (0.003903) based (0.003775)
+  SURPRISE:  theorem deterministic stochastic svm i(t r(t priors s(t asymptotically autocorrelation ðtþ scale-free betweenness kernel agent-based wavelet centrality eigenvalue stochasticity space-time
+  Top docs: 
+ (113) 02c9b77cb2898b1597278dbf32a0c61be93d1983
+ (6391) a5a3e3edfad63f20fc48ba5885fb9cc863411d2e
+ (4630) 77e305d16c96f220ddfe23abe6308b94c266bcbf
+ (7565) c5c2bc7a07670d6fb970d84a59aab3832752a3f1
+ (2134) 3811a68dda2911cb406a2fbb448530aa2319ee21
+ (40428) db8acc6d0e1c250a2fb7775b7170ae5714ed22fe
+ (13955) c5f1c29433d6c5e4bed3a83ee1c94f003f597ea4
+ (25160) 59b5d58c0bfb16e6e12d646b99e61181c05d5fbc
+ (37518) c28f1798271d5fd8e9224bf291a6f64ac61c5c65
+ (6977) b5421a028a9ff8b2f36ad9be3c51d3d0cb78ddd6
+
+Topic 21 probability=0.047816 eff.no.words=2314.381142
+  FREQ:  patients (0.046894) treatment (0.010498) patient (0.009505) clinical (0.008575) blood (0.008184) therapy (0.007760) disease (0.006932) risk (0.005312) acute (0.005093) lung (0.004856) severe (0.004796) diagnosis (0.004702) infection (0.004630) days (0.004600) pneumonia (0.004300) pulmonary (0.003740) mortality (0.003707) cases (0.003626) failure (0.003298)
+  SURPRISE:  hsct aki peep ecmo hrct posttransplant fio post-transplant sofa sot carv ggo allo-hsct ptld transfused extracorporeal trali methylprednisolone hlh agvhd
+  Top docs: 
+ (32298) 96650e6fa280653c83e6f9b1ba1e5217f45e4799
+ (10902) 82750e48d4de6a85d7167a7c82ea9805656a2564
+ (35441) b0dc52c7dc29bc8a0d52bab08b77eb2809db023e
+ (30121) 84254629ad01cd0f55cf6194a960e25917b2f81b
+ (32137) 950e251caaf8b81304d185479b461a621de0dfba
+ (12299) 1cf4faa405e1bd03ac04596491a0261cfdd68449
+ (24378) 52b6a7d0fcbef1abf131da2c42a151e41e0eadac
+ (12648) 3fad6dea4f2f9afda7699aa3b79d11b4ddfb57fd
+ (32908) 9b72a84c32d2c8e88183038483b0648be006dee1
+ (39137) d0ae5c602f5cf927a8910450e72649b695f65b45
+
+Topic 10 probability=0.043905 eff.no.words=1815.533306
+  FREQ:  study (0.027122) group (0.011139) data (0.009696) studies (0.009114) results (0.007985) analysis (0.007651) significant (0.007401) age (0.007377) groups (0.006663) compared (0.005987) higher (0.005901) risk (0.005762) included (0.005631) table (0.005613) significantly (0.005383) years (0.004997) total (0.004754) test (0.004527) reported (0.004346)
+  SURPRISE:  randomisation ptsd univariable cronbach's univariate subscales itt multivariable subscale wurss aor ies-r rhinothermy marital qol cfrd self-efficacy mwt dichotomized mmvd
+  Top docs: 
+ (11073) 95e959217bbe5b03a533352920dbf0d7d222b238
+ (34765) ab1435aed43ce2dd07e0d66f4d59fab9837d4c45
+ (19832) 2cc5cccb3c6f69704f97a19e680fe3e16496beff
+ (23705) 4cde409a3e25d5ccf82eff78c9c76748adc41643
+ (35422) b0a6ed483bc608a977382c0781fdf31c73d28771
+ (19876) 2d29a983767605f2d6c098f9ec4c205cf7e93cce
+ (2745) 4800117f48b3a425e71f4271d450a1c07536765a
+ (11953) f99cb5d12a8de00c772ca8af371cf9c2800c6eb7
+ (31459) 8f5e0516669da7cb0ff009b40acb3ae746db75e9
+ (4896) 7e6a3be51808891b99a73f57faaa454670055e45
+
+Topic 18 probability=0.043591 eff.no.words=2567.755381
+  FREQ:  virus (0.019425) disease (0.015014) infection (0.011171) human (0.010842) species (0.010167) viruses (0.009410) transmission (0.009086) humans (0.007566) host (0.006915) diseases (0.006793) animals (0.006568) infected (0.006098) infections (0.005992) animal (0.005991) infectious (0.005305) cases (0.004484) viral (0.003999) bats (0.003860) pathogens (0.003780)
+  SURPRISE:  mosquitoes wildlife aegypti captive bushmeat zoos lbms vampire eblv aedes zoonoses mosquito rabid wolves roosts foxes arboviral sylvatic hyenas free-ranging
+  Top docs: 
+ (32868) 9b2d192f226d6d1d84adf5226fa562758ffe9055
+ (20058) 2ed3c9522b4a1917a873caabfca2693d9acef8a5
+ (16895) 13f5c3597bd413798c5696299c3632d3fadf6344
+ (3735) 6129997a5fe45179b0acf89be52fe803bf5719dc
+ (14062) d0e4a23b392c97a4cce74b1da7bffffa6eee36ed
+ (22429) 4235f9c6e84312765672dd1b422ce68772ff2408
+ (27197) 6a5afabd38627daad29a8690323d9725f362b78d
+ (36081) b5e439b4e966d79296657424ae5ea09f8a914fa2
+ (35170) ae865a19fb0b97f96d15c28daaac6bc9058c5c46
+ (40489) dc19b00a1c13f97379b4daf5326e1095afe334b4
+
+Topic 15 probability=0.040810 eff.no.words=6317.842311
+  FREQ:  health (0.006269) countries (0.004350) people (0.004294) social (0.004156) china (0.004151) global (0.004034) research (0.003690) economic (0.003595) international (0.003492) development (0.003469) world (0.003238) public (0.003198) government (0.003134) tourism (0.002621) policy (0.002530) market (0.002383) human (0.002329) chinese (0.002291) risk (0.002181)
+  SURPRISE:  tourism firms prices asean investors airlines gambling wto discourse hospitality sovereignty journalists diplomacy mdgs legitimacy politics diplomatic long-run subsidies firm's
+  Top docs: 
+ (27287) 6b32ab23607042613cf00768346e4c579ef99e5b
+ (17803) 1befda96de6363e4d4e3f7c62ccbd7cdb53a6b00
+ (40649) dd3c94fae36c264d34f2b5cf446c789a4cb9c400
+ (6670) acadcb58dfdef9e3e9981dde06e2a825c005c9c4
+ (17243) 16f87a9a08595b50fe86c41c49bc115fb0d9149d
+ (35637) b27ad20ff8fec87841205fe1b569a0599b967655
+ (20193) 300dee5bb71d6b2f7299e61366ae273ef7fc2735
+ (26848) 67531b6e2aa148c81edf604c797736382cc1f058
+ (19428) 294f15aa90f5c0cbc408c1e8a9d266a7d2a1c786
+ (31212) 8d45f5195da141da6fafece92e5662beb9150511
+
+Topic 13 probability=0.040644 eff.no.words=1137.967067
+  FREQ:  respiratory (0.027758) influenza (0.024924) children (0.019552) infection (0.014997) virus (0.013795) viral (0.013608) viruses (0.012611) patients (0.012528) infections (0.011966) rsv (0.010610) study (0.008482) asthma (0.008248) symptoms (0.007484) pneumonia (0.006827) age (0.006490) clinical (0.006329) disease (0.006270) years (0.006087) studies (0.006056)
+  SURPRISE:  hmpv hbov wheezing aom urti croup lrti hrv-c hrvs wheeze ari hrv-a lri lrtis ev-d uri rv-c exacerbations alri rsv-a
+  Top docs: 
+ (32930) 9b9aaf52e1b9e2bab84828ffa9b4e5db907b1048
+ (32871) 9b3127bf657a3117c2c1f4543e01ee068a9fb0bf
+ (28719) 77943f83d13697f86b9d1eb3cfa86581ed9965e6
+ (12088) 069695d115517cbd0e713fb44245be7a6226bc7f
+ (24644) 551a07385ce5b146941a9c326abbfa62b56bee5d
+ (25745) 5e670558d4677a98977bf99daf4945be77494415
+ (36516) b980c0e3f44484dbb712eed20003ed9b822d6030
+ (1203) 1ff38c46bce64adb553080443f72ff90e61dcbc3
+ (3687) 601a2a29ef252c46e3a3b19f35d1d6fb591b0af6
+ (104) 02998402c64a65e3ea2fd0fdd8f688aeebda6192
+
+Topic 29 probability=0.038503 eff.no.words=2623.009380
+  FREQ:  virus (0.018794) cells (0.016147) membrane (0.014285) cell (0.013136) viral (0.013018) proteins (0.012973) protein (0.010825) viruses (0.009954) fusion (0.008940) entry (0.006686) surface (0.006133) hiv (0.006011) particles (0.005510) host (0.005091) receptor (0.004988) binding (0.004721) infection (0.004026) membranes (0.004008) cellular (0.003625)
+  SURPRISE:  grft glcnac golgi tgn dc-signr ergic viroporins cisternae clathrin gbf lsectin trans-golgi high-mannose hemifusion mβcd sialylated copi o-acetylated lectins palmitoylation
+  Top docs: 
+ (29490) 7e82e6c517476d2c3c1c928bc04f3aae13922dd1
+ (24359) 529a7729c68a3026a4682e09c74a1b2aa72a95fb
+ (29568) 7f2863b59185c97f0e948a9caa32c0deb3e1a5a0
+ (26822) 670ec961e536e3da8028e470a544b20cd9474cc0
+ (27684) 6ea661dee656d26f7b014f548a76387b6c6259db
+ (34912) ac60365d08cb8523bfba99fc62f531d7f745882f
+ (11703) deddaf17c80d0b594cacaad0b97871bdd8e63c19
+ (14415) f6cb05b1b2874e3aabdc66876575cda7d7477d31
+ (8447) dc69e220d40597887fac3851a1601408fe7bf568
+ (7594) c682f8e05b7363e2407b3055826f6c93b6c1f3ad
+
+Topic 22 probability=0.037132 eff.no.words=1760.420340
+  FREQ:  vaccine (0.024860) vaccines (0.015365) virus (0.014136) antibody (0.012117) antibodies (0.011809) immune (0.010366) mice (0.009168) responses (0.008540) vaccination (0.007975) response (0.007273) antigen (0.006492) protection (0.005869) neutralizing (0.005858) immunization (0.005473) protein (0.005407) viral (0.005081) challenge (0.005024) dna (0.004963) recombinant (0.004958)
+  SURPRISE:  nabs prime-boost immunogenicity mva fvm advax adjuvants adjuvanted vaccinology chadox ediii alum pvax rvsv vlp-based vaccinees adhu epitope-based reactogenicity hmabs
+  Top docs: 
+ (3822) 633715b2acfa849d613285b7a01531072c2b3422
+ (24697) 557c692b8d8fe6d1ef33aa3e9383279b7b094e7d
+ (18456) 2181d8b3314b4df9e8419a4387efd56027b841d6
+ (33190) 9dbbd99bf146dd20f2e16be53fa7605cb6c03cd8
+ (20999) 36d237e8d265064eead7b6e656bb61d42029b0db
+ (18342) 209136e8f27406f9c9e1321c7e62aaa83b05c68a
+ (11564) d01e61766266e4db92c180313570ebed821a9954
+ (3164) 52e083e335c8c29b8867ac67d5090b71348f2eac
+ (34978) ace4abf4e351d6cc439991c9f51e4f8db5b2492b
+ (4775) 7b9588d67ae1477f9d8534ee88d910be6349a78f
+
+Topic 20 probability=0.034901 eff.no.words=2394.645498
+  FREQ:  rna (0.035240) viral (0.013622) nsp (0.012099) virus (0.011869) replication (0.010348) genome (0.007785) viruses (0.007740) sequence (0.007587) protein (0.006459) mrna (0.006176) translation (0.005614) synthesis (0.005389) orf (0.005092) proteins (0.004931) dna (0.004551) rnas (0.004225) fig (0.003993) structure (0.003815) site (0.003794)
+  SURPRISE:  frameshifting pseudoknot nsp pseudoknots pa-x mtase ires tbsv ppmo rdrps yhv prf trna minus-strand subgenomic eav shfv anticodon frameshift trnas
+  Top docs: 
+ (18781) 2405ef9633b330bba233f68fa4e6812d155f714f
+ (21874) 3de86b0356f38fb81a118d23c16f51dafc458e63
+ (39613) d4d0c18bf76d4f59b0f231fcc09d3710216aeaee
+ (35543) b1beab9a8fe94df98804ea39e2f4abb2208fba50
+ (17647) 1a7e5568684ee44dfd3d6ac01ac6ccbf6f73806b
+ (23640) 4c5cbec1cedf65d1a00fc1cc96be47470eca977e
+ (32015) 93f587da0d13b42f03cec8a583c217f96da66eb1
+ (29052) 7a7ef5608d59aae1e58b336437110e477d5bdf9a
+ (22222) 409d4d8ba71218f302695b9f3f3878525adf6b82
+ (38148) c7f6279f66beae3b044d0817f5fa16ab91ef22f8
+
+Topic 25 probability=0.034683 eff.no.words=2095.743061
+  FREQ:  sequences (0.015984) sequence (0.013494) strains (0.011824) viruses (0.010207) gene (0.009683) genome (0.009401) virus (0.007512) analysis (0.007192) ibv (0.007135) species (0.006363) strain (0.006236) viral (0.006178) genes (0.006015) phylogenetic (0.005606) amino (0.005602) sequencing (0.005281) nucleotide (0.005140) table (0.005114) acid (0.004943)
+  SURPRISE:  contigs contig apmv ibvs neighbor-joining enc rscu monophyletic outgroup astv non-synonymous blastx phylogenetic qx-like nephropathogenic dn/ds k-mer tastv simplot mega
+  Top docs: 
+ (3384) 58a21f91c8d3c79e8be084088092f29dec2fc4d3
+ (33478) a065025bd3129e5c344fdfc1ff24dd03d7b86ded
+ (2802) 49b325fc505d265149ed0c2e9131662626c16939
+ (281) 06d210540bbdfe3b898f2ffbc4d1f9fb74a5a4d8
+ (7368) c097a8a9a543d69c34f10e5c3fd78019e560026a
+ (6058) 9c930b820306b68f83b4706c10aae46bf2ed70b7
+ (1301) 2318d71622cd266fdbd9a9d80f25e689ff6f61ae
+ (2283) 3c440b07b2bc59e8483537e994bbd7ac0030801a
+ (38367) c9f19a037291c921b13a6cc4e1a3e69db11446ea
+ (3701) 607d648e224430e7c79b94f6c2d770272616c5bc
+
+Topic 26 probability=0.034014 eff.no.words=1515.414207
+  FREQ:  samples (0.021080) detection (0.017575) pcr (0.016969) assay (0.011561) positive (0.009700) dna (0.009471) sample (0.008330) virus (0.008128) assays (0.008115) rna (0.008006) viral (0.007583) results (0.007273) sensitivity (0.007058) test (0.006576) rt-pcr (0.006114) clinical (0.005980) amplification (0.005867) detected (0.005851) methods (0.005668)
+  SURPRISE:  rt-lamp naats nasba mngs nanotrap loop-mediated naat rt-rpa copies/reaction rt-iipcr mrt-pcr monoplex xtag pcr/esi-ms virochip singleplex notomi r-mix vidisca copies/µl
+  Top docs: 
+ (6256) a257c576fef2e2aee2702b5179d2d09473f16543
+ (31604) 907fa22b1cee9624d3bcb15a4127e27ef1ba9f3b
+ (26309) 63188fe828f332759eb902e48628239cb4679964
+ (4552) 75e12afbacd0c6dcdb20697a093ed0835e9bbead
+ (34201) a63c60615fbc8b63dd710aa2ae23c6f2d6d25fa5
+ (19717) 2be3ceea7825428e114a83f868f52d735b804fc6
+ (18771) 23ebbebdc169ff3d7632e1d656bca507652075a1
+ (32003) 93e1e84781db213cbf818678bf08af576a07aa67
+ (24632) 54fb86ff6dd6fae05b49336d96dbf7823f73f3d6
+ (18122) 1eb731dcdcd8565f3865b47be6b7f722b596a416
+
+Topic 19 probability=0.033440 eff.no.words=2127.589999
+  FREQ:  protein (0.013735) viral (0.012516) cells (0.011202) proteins (0.010050) infection (0.009888) ifn (0.008149) activation (0.007559) signaling (0.007506) expression (0.007457) replication (0.006879) virus (0.006726) cell (0.005788) response (0.005629) pathway (0.005601) host (0.005468) antiviral (0.005359) autophagy (0.005340) activity (0.005238) ifitm (0.005038)
+  SURPRISE:  ifitm autophagy isg rig-i ifit isgs pkr mavs upr ubiquitination tbk autophagic beclin ddx irf traf autophagosome xbp sgs ifnl
+  Top docs: 
+ (20261) 3089861dc2b4f9e4f09793f5f397c54a5a57346e
+ (3653) 5f3f613be264f8b10318dfe8e92777fe7a95848e
+ (8723) e3f23301b350d3fbb7326a209ed6aa1161dda8ea
+ (17442) 18a4656b2276bce90b52d441d1a442b1c8194f2d
+ (35715) b303ebed7f905942ff85d4110740cb2f3348b613
+ (18632) 22de9b9663d0a35f8dcbb2424afdd0d99365a80f
+ (39563) d45818d90368042f41c3a1c68c33d90e5c2f73f4
+ (25756) 5e84a7b59012911278af7902d937706c19668d2a
+ (34368) a78b5afb95ea148ea0b55b1f0155bcfd82638e5c
+ (19296) 2839162dbdb476151966147ee7919af34fa0f94e
+
+Topic 8 probability=0.033137 eff.no.words=2846.316531
+  FREQ:  binding (0.014485) protein (0.012824) residues (0.011766) structure (0.011290) domain (0.008319) peptide (0.007605) proteins (0.006067) fig (0.005936) site (0.005838) peptides (0.005772) figure (0.005230) structures (0.005218) amino (0.005082) structural (0.004958) pro (0.004818) interactions (0.004516) sequence (0.004305) activity (0.004131) domains (0.004004)
+  SURPRISE:  pdb rmsd protomer subsite adpr gln oxyanion diub pymol β-sheet helices b-sheet hrc macrod glu nhr beamline autodock cys crystallographic
+  Top docs: 
+ (5754) 94f3b8a5186232d98d578911b8cb707314bc7be3
+ (30533) 87582af39733e3ac37094edb3afec413e9f18833
+ (15160) 056d58cd0b7442359aa82b8f6bca98b16b00e4fb
+ (3874) 6460342e18e6d3fea8f62630e12b083d46a6eb99
+ (24906) 576a1fad919c5fd382c55b286ee251817bec5d53
+ (38121) c7c1dfa3775544e3204b9df7dce0354c0c91e66a
+ (14424) f77d9d6d6d7730a6a554319266051a8b1e36970b
+ (11918) f6cadf1f17cc7bd098174c1428a459aff01aa4a5
+ (31980) 93b922d4f3bae90ff8ce10b4fed7a84888ddcc53
+ (34430) a813acc37266e266325697747feea229c2299eec
+
+Topic 28 probability=0.032896 eff.no.words=2197.258121
+  FREQ:  protein (0.027523) cells (0.012604) fig (0.011541) proteins (0.011510) antibody (0.008312) antibodies (0.007167) min (0.007158) buffer (0.006483) purified (0.005799) expression (0.005551) recombinant (0.005269) incubated (0.005143) binding (0.004936) serum (0.004462) shown (0.004058) igg (0.003906) elisa (0.003816) cell (0.003811) analysis (0.003714)
+  SURPRISE:  sepharose pgex coomassie anti-his papn dpap sdab gst-n a-sepharose pgbkt pfastbac hfgl pqe gst ivtt eqcxcl aahig bsmab anti-gst tris-hc
+  Top docs: 
+ (6630) ab9e34ee687f60a4de8ef675f307230e1b6c6f23
+ (466) 0c433c7c4e2e090b2d89d8456f9febed54b71966
+ (39084) d02d0f21741ea920934c91f9cc92e0da83a72b87
+ (30775) 89c19cc8be064cc6385f378206bec5a5fe7b6a5a
+ (32562) 98887112d97bce9a000b55424873af60accd6ba7
+ (28957) 79a53f2ac148a3ee70d11b5d2700b7a42301ada5
+ (21275) 38cd6b6409c31e4cf0545ea5b7104ed79c8f3e88
+ (7973) d07d6b58460992a4530b7b24d66e8b3861036a50
+ (31064) 8c00e235352e3ed7e5463991fa2414b477c690f1
+ (36301) b789f8c559e435055cb25a0d24c14df120ab6f6a
+
+Topic 14 probability=0.032871 eff.no.words=3188.251079
+  FREQ:  genes (0.015647) gene (0.015353) expression (0.014402) proteins (0.008331) cell (0.007478) protein (0.007228) human (0.007170) cancer (0.005931) analysis (0.005130) cells (0.005067) sirna (0.004935) target (0.004347) genetic (0.004332) identified (0.004100) dna (0.003989) studies (0.003655) development (0.003006) expressed (0.002990) approach (0.002973)
+  SURPRISE:  lncrnas lncrna mirnas mirna kegg qtl degs gwas cscs hsa-mir dmd unigenes dystrophin morpholinos vsels itraq omics risc endu gse
+  Top docs: 
+ (31123) 8c6a7b79e04ad709e0e005aae638dd40c67b385e
+ (5183) 8620ebc72710ffd02328954e8447585ffcb5cae2
+ (31827) 925b589be61f6c19766a042d9aaddb4581da06a5
+ (23306) 495c7768981515cf5d976017d5601c4d3e08b460
+ (6775) af59bab3c82817cf0ebe456cf3283a3d8217cabf
+ (3097) 513bf780b2d2a5af6a194122cd3dd98c7b507fbe
+ (6503) a88ec297fe59d6c950ea8123ddda210a7b134032
+ (24239) 51a50584b02c04e99a884224a8ddc39169e036b3
+ (38463) cad2db4841bfa10db7a972d4c5f3e96a58b89a92
+ (86) 02480623218229a12cdbc4800defc262f7cc175c
+
+Topic 6 probability=0.032745 eff.no.words=2439.089771
+  FREQ:  calves (0.011783) pigs (0.010297) cats (0.009828) pedv (0.008755) infection (0.008524) animals (0.008392) diarrhea (0.006521) disease (0.006321) virus (0.006035) days (0.005712) cattle (0.005138) dogs (0.005096) samples (0.005053) infected (0.004936) study (0.004834) milk (0.004801) piglets (0.004383) clinical (0.004352) group (0.004043)
+  SURPRISE:  calves piglets pdcov colostrum sows pedv herds brsv fecv calving fcov piglet heifers colostral diarrheic replacer cpv bvd sow gilts
+  Top docs: 
+ (17960) 1d3f0f0ee215dae40294661ec3db5310ef743ace
+ (18594) 22857e95293e7b7f5a6c0e3ca3ce86cdf385dd74
+ (18510) 21f61bca508bbd911b1d623e9d6c2b0eb4af77c2
+ (17515) 1943ef8d442d9489abc2a584e9328d246a57b548
+ (35096) adfabd9ea3c5529f334435a6353946e126aed43e
+ (31184) 8d0bd8793a5e76ad03588fceb3d066df48863b8b
+ (21105) 378773f6c9d010ee15efbe438e3aa3161fe0745c
+ (23415) 4a42e1c5d35b39e94cc2457b8e7ae0872abe854d
+ (28685) 774a7970df0ddaaabb388b675a83cff4077a58e4
+ (30516) 871ef8cb355670f332575e941ebf1aa0667afb5d
+
+Topic 7 probability=0.029423 eff.no.words=3797.478619
+  FREQ:  activity (0.017359) compounds (0.011111) drug (0.008839) antiviral (0.008234) treatment (0.008169) effects (0.007606) ace (0.007316) drugs (0.006527) inhibition (0.005965) inhibitors (0.005923) acid (0.005776) effect (0.005573) compound (0.005537) showed (0.003922) studies (0.003668) inhibitor (0.003651) reported (0.003581) active (0.003565) vitro (0.003392)
+  SURPRISE:  ang quercetin flavonoids glycyrrhizin emodin egcg licorice niclosamide herb lycorine spla mannich radix glabra flavonoid apelin herbs pomegranate saon liquorice
+  Top docs: 
+ (31120) 8c63eb3a5dc25f0a67c630ab3d3ca60b135305e9
+ (26465) 64560b2118d347acf1c25fc809276d423e20edf0
+ (38841) ce1d25c29fda055933dce46302a47c8c2c02bb86
+ (1414) 25eb6cba256ef7c1dce823fc897b29a642aa0d5c
+ (20428) 31c749b9edeb0ff4b81feeec4231569206d443d3
+ (36205) b6bbc69b16eb3db0c0fd46bef545b28aa3a0a272
+ (18004) 1da2f9717e210595772dd2ee8e71bb62ed2810f2
+ (13064) 68f9d17b3481fc9b2466a48716d7e977ca9bbfad
+ (34855) abe9eca0a68de6871fcb8fcc513a49181bcc2531
+ (24479) 53a6268de072fe5562851c0a2e07095bc6a94d8a
+
+Topic 24 probability=0.028540 eff.no.words=903.360673
+  FREQ:  sars-cov (0.022072) cases (0.021956) sars (0.020018) preprint (0.017261) covid (0.016944) mers-cov (0.016095) infection (0.010948) patients (0.010077) transmission (0.008658) license (0.008564) outbreak (0.008516) reported (0.007408) china (0.007390) copyright (0.007348) medrxiv (0.007328) holder (0.007255) coronavirus (0.007171) days (0.007165) author/funder (0.006918)
+  SURPRISE:  preprint covid medrxiv author/funder perpetuity biorxiv ncov copyright cc-by-nc-nd holder pilgrims peer-reviewed cc-by license wuhan mers-cov hajj cc-by-nd cc-by-nc hcov-emc
+  Top docs: 
+ (8924) e90d316cde320ab2cecb088c9242a9ef3766718c
+ (10286) 3afd5fba7dc182ddfa769c0d766134b525581005
+ (10467) 516415a9a48ce502ff279fcaebcef641fa74c630
+ (11082) 975349ac1c79fc64525ee17e7d088c88c2c2071b
+ (9158) ef821e34873d4752ecae41cd9dfc08a5e6db45e2
+ (9013) eb88125e0384bc94499e00b623b18a7d033d0c1a
+ (29480) 7e6bcd2b28de3f1c2f1ea8dda2830c540bd9d9b3
+ (19325) 286b2437f1a1cc4aa2961445ee866636ec2dcaaf
+ (9572) fb113c8235675412d874b092faf5b997ac410434
+ (24169) 50ee50868ba3b31b9b67b4bbfbed49e2615f2e7c
+
+Topic 9 probability=0.026320 eff.no.words=4987.226570
+  FREQ:  surface (0.005632) solution (0.004888) nanoparticles (0.003870) concentration (0.003823) reaction (0.003728) acid (0.003501) high (0.003433) dna (0.003376) method (0.003271) fig (0.002833) water (0.002685) properties (0.002653) chemical (0.002604) due (0.002534) temperature (0.002528) size (0.002460) molecules (0.002458) fluorescence (0.002377) obtained (0.002347)
+  SURPRISE:  chitosan aunps functionalized aptamers nanomaterials aptamer electrochemical tio dmf graphene agnps cnts cantilever nanoscale dendrimers biosensors equiv nanoparticles nanostructures hydrogels
+  Top docs: 
+ (6018) 9bbac1f67fbab1d4f3e9a20387a63989bf40bfad
+ (5965) 9a0fe7316ddd2f7cfcaa5e7500f781357477f3d1
+ (34330) a73cdceeeabe6733e589c61360dff74e0615aa04
+ (31332) 8e5485cfe1f9ce2c74dc70d69b6ae34c1440b072
+ (7158) ba619ea88290fb57c91eaa57424ff64b0e811f0b
+ (8392) db30c72b055266cbd06bb14d7f570f91d8e84e6e
+ (37189) bf73e417f2711f3f1b5f355ee377e8a0a976ab89
+ (31434) 8f38cc6c306c8fd29bbd2c946bfa9c55ba7f18cb
+ (27787) 6f8ed3b3dbd4b4a00cec2c86091fc85ff2b92d9f
+ (5139) 85166a1c79d32bc2df2984260f1facc1a4d6148b
+
+Topic 2 probability=0.025495 eff.no.words=2862.354695
+  FREQ:  bacterial (0.016096) bacteria (0.015369) infection (0.010905) infections (0.009299) pathogens (0.008508) resistance (0.008283) strains (0.006878) antimicrobial (0.006635) antibiotic (0.006407) coli (0.006201) antibiotics (0.005770) organisms (0.005683) isolates (0.005043) species (0.004673) aureus (0.004526) microbial (0.004188) culture (0.004025) pneumoniae (0.003901) pathogen (0.003834)
+  SURPRISE:  mrsa nec epec biofilm stec colistin pfge faecalis faecium probiotic mics ca-mrsa enterobacteriaceae biofilms tigecycline adhesin methicillin mssa ehec esbl
+  Top docs: 
+ (6821) b0bb72323af0b1a945243ed46769e00f6d9ceca2
+ (40187) d9d6c6f034dd3114696c0811a672bbd5c9c9dc18
+ (32493) 97f2dbc89c2f6b587d05b88776e8da3faa527c8b
+ (14881) 032105168779fce0b02645ab1423fc1789323d97
+ (37730) c46c291bcfcea6caa515003e275093fe18e35acd
+ (32371) 96f1671ea74afd2b577fc95195c16f21f7df3782
+ (21599) 3ba75030d6d82e16aa6b4e72f4ff2d5aa4ec3086
+ (11675) db26db9bcf076abc562784c836e280940b90b949
+ (36454) b8e2ff89c21ed4324e6019ea7d29faa8335b0bd8
+ (15799) 0aefee2641fbcc178d92c5217f5864a10ef911dc
+
+Topic 12 probability=0.024849 eff.no.words=3817.164861
+  FREQ:  air (0.011523) water (0.008088) temperature (0.005725) exposure (0.004496) particles (0.004089) room (0.004037) transmission (0.003560) environmental (0.003496) airborne (0.003438) environment (0.003237) concentration (0.003180) time (0.003143) risk (0.003064) ventilation (0.002999) flow (0.002941) contamination (0.002888) food (0.002880) high (0.002806) contact (0.002799)
+  SURPRISE:  wind respirator bioaerosols wastewater bioaerosol ffr cfd pollutant groundwater ffrs plume hvac aerodynamic occupants niosh exhaust lift-up uvgi papr samplers
+  Top docs: 
+ (23106) 47a00f5cb75d42a193b4b48873f8a2295bd8b091
+ (24043) 4fe0ac7c8c55ed2d682fa45139f4e12859962e41
+ (32958) 9bdc7a21cece54eee0a5dd98b6d0f8c5db6dd212
+ (26401) 63d4ded207b4f215bcc591e30f0816d07bef6a3a
+ (18255) 1fdc310384ece61abf6f970ee4fe8237636f2ff2
+ (17814) 1c044167282ced278033dd4904a154a1ce0ce956
+ (29906) 822f91b5238e03eeeb14c3e15fa67d86f66b2e64
+ (26912) 67f5daa745499e1e39e7e0c538bb8461190bfa81
+ (15879) 0b99f04241566a49e266f6b6848f7714b7aaad05
+ (24416) 530d903e663909fd0465306da158eb50d9226b69
+
+Topic 23 probability=0.020516 eff.no.words=3734.376725
+  FREQ:  mice (0.018668) brain (0.014160) cns (0.013098) cells (0.009001) disease (0.007165) rats (0.006910) neurons (0.006186) mouse (0.004744) spinal (0.004569) astrocytes (0.004457) microglia (0.004372) virus (0.004328) rat (0.004312) demyelination (0.004206) csf (0.004159) animals (0.003786) cell (0.003746) myelin (0.003736) infection (0.003625)
+  SURPRISE:  demyelination astrocytes microglia myelin oligodendrocytes jhmv demyelinating remyelination axons oligodendrocyte axonal gfap glial microglial astrocyte mog hippocampus adem apod bbb
+  Top docs: 
+ (27486) 6ce4b3008e4c7a34aa6529bd31c01b41fdeb5f71
+ (33902) a38e749a4730969d597599f0c1f58f719fa82c9a
+ (33111) 9d31368fb61ceabbbdfe1bab55407d69a1425f92
+ (38141) c7de9f8ba837bafbb19cc1ce00ecc51aa772b873
+ (23247) 48efb106353716662b0e4299d188d29de48296af
+ (27098) 699a91b04b851f873f6fc48f9b5c0d70d1eaaf85
+ (38687) cce799da8d05a008416755970e7f4361e948fed7
+ (30112) 841861b5c6ff22aadc18032f2e5fa4110bad4628
+ (19609) 2adbfa1b4f6dacb2a5b2f6d02632c30929dd613d
+ (17027) 152b8cd89a4c482001600b0699b346ea4f378c75
+
+Topic 16 probability=0.007794 eff.no.words=3958.697887
+  FREQ:  les (0.032602) des (0.031694) une (0.019954) est (0.017813) dans (0.014458) par (0.014300) sont (0.009046) pour (0.007764) chez (0.006289) sur (0.006228) avec (0.006226) cas (0.005686) d'une (0.005478) qui (0.005213) pas (0.004709) être (0.004544) ces (0.003782) peut (0.003560) d'un (0.003505)
+  SURPRISE:  une dans sont les chez avec d'une être est qui peut d'un été traitement cette pour après elle maladie comme
+  Top docs: 
+ (29678) 8041d43c81822cc671336b37a3a7d93e1a24e663
+ (31894) 92e105b281fafeb58c5fa27a6a1aade2f93986ad
+ (27730) 6f0fe507e6d3d1f9d6c96044f6a31ea55fad94f8
+ (31202) 8d2d0be378da464b2f5197bf3544f887abf4d18f
+ (37887) c5c4ae5b84850a4bb16176839d6ca516c224a80c
+ (25258) 5a9705ba079bd66ce2a9655ec6604df3a60fd358
+ (18502) 21dc38640323fcbcaf547f3d05540db62c936f9d
+ (39027) cfac94a5aef35458836c0bc9e66cb57fbcf09e65
+ (36570) b9f0339c259fab0767ec537424e539fdd49252a6
+ (25182) 59e354cafde19c89cc1b57ca6fd056628cdcaadf
+
+Topic 5 probability=0.005581 eff.no.words=5118.089703
+  FREQ:  van (0.024202) een (0.015576) het (0.013545) work (0.011061) met (0.007619) bij (0.007482) zijn (0.005145) del (0.004849) della (0.004738) submitted (0.004667) che (0.004512) voor (0.004511) door (0.003878) con (0.003874) worden (0.003796) form (0.003762) dei (0.003688) institution (0.003567) section (0.003550)
+  SURPRISE:  een het bij zijn voor della dei ook wordt sono delle niet deze kunnen alla più degli uit maar zich
+  Top docs: 
+ (35331) afcc1a28b96721fb9f9544943254ab73d656b635
+ (21075) 374fae44d0748b5cc48cd9f51486f7733ef6fbe6
+ (31546) 9006f3d3976269e8282ac303c17acc99a59c2893
+ (24752) 55f68ad5d627bb2a2a97ad10aa4df895b3f78262
+ (26640) 65a6cb6c93e202dd114fa870f43bdedc0e2d1962
+ (27009) 68ccc6ee28ab9f8c94f604e8a42d4482663c8dc0
+ (26007) 607c9e39d3ba883da7c5796c4d102e74f87948b7
+ (34025) a49355dcd1dfe17df391674f41b4134a88e3c92e
+ (30294) 8568798df5346bdd1ae349b11ae1d0160eaed6ba
+ (29279) 7c89b5bca058bd5f9ba63674b32102a9847c8d75
+
+Topic 17 probability=0.005171 eff.no.words=3961.211862
+  FREQ:  der (0.037499) die (0.032783) und (0.028437) bei (0.015193) von (0.014628) mit (0.013613) eine (0.013115) ist (0.011551) werden (0.010236) den (0.008862) für (0.007282) einer (0.007268) sind (0.007035) des (0.006863) das (0.006822) oder (0.006592) auch (0.006582) nicht (0.006451) als (0.006337)
+  SURPRISE:  und eine ist einer sind für oder auch nicht mit durch ein nach sich wird bei zur kann können über
+  Top docs: 
+ (21344) 397e55ca3a30fa1a2ae28d63ff3efc421ad374fd
+ (32791) 9a8beb9701800db457b815f4455e2592df3dd835
+ (25634) 5d9fa52c20654d1f615bfc6d72243615b52bc2c2
+ (13135) 70549fd773d28dfe6e47cbc51775b61c1816003f
+ (38195) c86aeb45062aa6a85a08a2fc1e3806bd57add39b
+ (26268) 62c692fa56138dbf3dbd03b6244a70d797ec83fb
+ (27108) 69ad5dfa7eb8ada52f203b2130a89ecf2ec5c6fa
+ (20194) 300e44b953f7b64d83112754823c965f481175b9
+ (31699) 916602c93360fa550e272dcc72f00bd36be64817
+ (32324) 96a6974fb77fa11673cc35eff659f8ee74151366
+
+Topic 1 probability=0.004692 eff.no.words=6012.353219
+  FREQ:  los (0.027080) con (0.021533) las (0.015392) del (0.014171) por (0.012737) una (0.010921) para (0.008974) pacientes (0.007382) como (0.006229) más (0.004846) virus (0.004427) son (0.004165) infección (0.003841) tion (0.003753) tratamiento (0.003678) enfermedad (0.003620) puede (0.003440) casos (0.003204) sin (0.003129)
+  SURPRISE:  por pacientes como más infección tratamiento enfermedad puede casos las riesgo pueden infecciones diagnóstico esta sobre paciente también estos debe
+  Top docs: 
+ (27514) 6d2ddd2b2a21c19161d6cf9d7fe0ba0725d1ba71
+ (31406) 8efb58d2e026193ce9ee6498ce84f0660538f709
+ (29724) 80a1ed4accf4600bd8376afb9db68d0c795d7407
+ (26134) 6198c45ade2c9f644ed7556b30e5736439b7e1b2
+ (37642) c3ac28783beb36d4b01a82b6c3196407f6097b7e
+ (18038) 1dde5e8732db502834dbde7960ee2615c677b6e3
+ (38644) cc64e47ceb8557822f53767880c303eded7b0225
+ (37785) c4e6b396de643d9cebca18f374c9c6de23b21666
+ (26446) 642f87b9554dc5868a8b876c6f1df729023f5f30
+ (13499) 95932152552726907534123bae9e9c61eec15d02
+
+label 3::0  eff.no.topics=20.850177
+  top topics are
+  23 (0.109488) ::  mice brain cns cells disease rats neurons mouse spinal astrocytes microglia virus rat demyelination csf animals cell myelin infection
+  2 (0.109326) ::  bacterial bacteria infection infections pathogens resistance strains antimicrobial antibiotic coli antibiotics organisms isolates species aureus microbial culture pneumoniae pathogen
+  7 (0.077300) ::  activity compounds drug antiviral treatment effects ace drugs inhibition inhibitors acid effect compound showed studies inhibitor reported active vitro
+  19 (0.066294) ::  protein viral cells proteins infection ifn activation signaling expression replication virus cell response pathway host antiviral autophagy activity ifitm
+  11 (0.064330) ::  cells cell immune mice response infection expression responses lung activation macrophages inflammatory levels cytokines role production increased human cytokine
+  16 (0.063915) ::  les des une est dans par sont pour chez sur avec cas d'une qui pas être ces peut d'un
+
+label 5::1  eff.no.topics=22.392679
+  top topics are
+  24 (0.095020) ::  sars-cov cases sars preprint covid mers-cov infection patients transmission license outbreak reported china copyright medrxiv holder coronavirus days author/funder
+  19 (0.078488) ::  protein viral cells proteins infection ifn activation signaling expression replication virus cell response pathway host antiviral autophagy activity ifitm
+  11 (0.067042) ::  cells cell immune mice response infection expression responses lung activation macrophages inflammatory levels cytokines role production increased human cytokine
+  27 (0.065519) ::  health care public disease information medical data surveillance control diseases research system response risk emergency outbreak pandemic infectious national
+  29 (0.064679) ::  virus cells membrane cell viral proteins protein viruses fusion entry surface hiv particles host receptor binding infection membranes cellular
+  12 (0.059976) ::  air water temperature exposure particles room transmission environmental airborne environment concentration time risk ventilation flow contamination food high contact
+
+label 2::2  eff.no.topics=18.153670
+  top topics are
+  24 (0.143796) ::  sars-cov cases sars preprint covid mers-cov infection patients transmission license outbreak reported china copyright medrxiv holder coronavirus days author/funder
+  6 (0.142450) ::  calves pigs cats pedv infection animals diarrhea disease virus days cattle dogs samples infected study milk piglets clinical group
+  14 (0.094204) ::  genes gene expression proteins cell protein human cancer analysis cells sirna target genetic identified dna studies development expressed approach
+  2 (0.069270) ::  bacterial bacteria infection infections pathogens resistance strains antimicrobial antibiotic coli antibiotics organisms isolates species aureus microbial culture pneumoniae pathogen
+  5 (0.062496) ::  van een het work met bij zijn del della submitted che voor door con worden form dei institution section
+  25 (0.059655) ::  sequences sequence strains viruses gene genome virus analysis ibv species strain viral genes phylogenetic amino sequencing nucleotide table acid
+
+label 1::3  eff.no.topics=19.513773
+  top topics are
+  4 (0.164280) ::  cells virus fig infection cell infected figure viral control mice data observed expression performed compared assay incubated min results
+  25 (0.096489) ::  sequences sequence strains viruses gene genome virus analysis ibv species strain viral genes phylogenetic amino sequencing nucleotide table acid
+  26 (0.064556) ::  samples detection pcr assay positive dna sample virus assays rna viral results sensitivity test rt-pcr clinical amplification detected methods
+  11 (0.062699) ::  cells cell immune mice response infection expression responses lung activation macrophages inflammatory levels cytokines role production increased human cytokine
+  20 (0.057482) ::  rna viral nsp virus replication genome viruses sequence protein mrna translation synthesis orf proteins dna rnas fig structure site
+  23 (0.054072) ::  mice brain cns cells disease rats neurons mouse spinal astrocytes microglia virus rat demyelination csf animals cell myelin infection
+
+label 4::4  eff.no.topics=14.903607
+  top topics are
+  7 (0.217846) ::  activity compounds drug antiviral treatment effects ace drugs inhibition inhibitors acid effect compound showed studies inhibitor reported active vitro
+  5 (0.137789) ::  van een het work met bij zijn del della submitted che voor door con worden form dei institution section
+  19 (0.125902) ::  protein viral cells proteins infection ifn activation signaling expression replication virus cell response pathway host antiviral autophagy activity ifitm
+  16 (0.080329) ::  les des une est dans par sont pour chez sur avec cas d'une qui pas être ces peut d'un
+  24 (0.055796) ::  sars-cov cases sars preprint covid mers-cov infection patients transmission license outbreak reported china copyright medrxiv holder coronavirus days author/funder
+  4 (0.043806) ::  cells virus fig infection cell infected figure viral control mice data observed expression performed compared assay incubated min results
+
