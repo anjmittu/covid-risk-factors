@@ -3,6 +3,7 @@ import os
 import json
 import glob
 from data.data_utils import process_file
+import csv
 
 PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -40,5 +41,7 @@ corona_df.to_csv(os.path.join(PROJECT_ROOT, "data/baseline/papers.csv"),
                  sep="\t",
                  header=False,
                  index=False,
-                 columns=["paper_id", "text"])
+                 columns=["paper_id", "text"],
+                 quoting=csv.QUOTE_NONE,
+                 escapechar='\\')
 
