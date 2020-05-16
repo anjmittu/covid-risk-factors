@@ -22,7 +22,7 @@ def evaluate(topics_path="mallet-baseline/output/topic_words.txt"):
     # text=corpus.get_texts()
     # print("Got text")
 
-    cm = CoherenceModel(topics=topics_list, corpus=corpus, texts=corpus.get_texts(), dictionary=dct, coherence='c_uci')
+    cm = CoherenceModel(topics=topics_list, corpus=corpus, texts=corpus.get_texts(), dictionary=dct, coherence='u_mass')
     print("Model created")
 
     coherence_lda = cm.get_coherence()

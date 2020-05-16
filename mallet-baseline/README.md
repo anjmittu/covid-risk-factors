@@ -19,7 +19,7 @@ $ mallet train-topics  \
     --optimize-interval 10 \
     --num-top-words 100 \
     --num-iterations 2000 \
-    --num-threads 10
+    --num-threads 16
 ```
 
 Print out the top topics in order
