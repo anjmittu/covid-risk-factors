@@ -27,7 +27,7 @@ $ java -Xmx8000m -cp /opt/MetaLDA/target/metalda-0.1-jar-with-dependencies.jar t
     --num-threads 16
 ```
 
-Run analysis on results
+Run analysis on results (this script can also be run in Matlab if there is difficulty running in octave)
 ```
 $ octave-cli analysis.m
 ```
@@ -38,3 +38,8 @@ Find the average cos sim
 $ python ../../data/evaluate_results.py -p metalda/institutions/output/outputs_a0_b0_2/topic_words.txt -e data/embeddings/glove.6B.50d.txt
 $ python ../../data/topic_coherence.py -p metalda/institutions/output/outputs_a0_b0_2/topic_words.txt
 ```
+
+To find the UMass score, run the topic_coherence.py script in the data directory
+``
+$ python topic_coherence.py -p metalda/institutions/output/outputs_a0_b0_2/topic_words.txt
+``

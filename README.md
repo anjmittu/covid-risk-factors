@@ -13,3 +13,7 @@ $ docker run -it --rm -v `pwd`:/usr/src/myapp -w /usr/src/myapp covid_risk_facto
 
 Note: Before running, download the data from https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge and
 place it in the directory `covid-risk-factors/data/cord-19/`
+
+More information on how to run each model can be found under it's directory:
+* Mallet baseline: `mallet-baseline/`
+* MetaLDA with institutions: `metaLDA/institutions/`
