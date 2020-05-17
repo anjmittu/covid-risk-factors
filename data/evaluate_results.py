@@ -20,18 +20,18 @@ def load_embeddings(embeddings_path):
     return embeddings_dict
 
 
-def calculate_topic_avg_cosine(topic_terms, embeddings_dict):
+def calculate_topic_avg_cosine(topic_terms, embeddings_dict, n=10):
     total_sim = 0
     found_pairs = 0
-    for i in range(0, len(topic_terms)):
-        for j in range(i, len(topic_terms)):
+    for i in range(0, n):
+        for j in range(i, n):
             term_i = topic_terms[i]
             term_j = topic_terms[j]
             if embeddings_dict.get(term_i) and embeddings_dict.get(term_j):
                 cos_sim = cosine(embeddings_dict.get(term_i), embeddings_dict.get(term_j))
                 total_sim += cos_sim
                 found_pairs += 1
-    return total_sim/found_pairs
+    return total_sim / found_pairs
 
 
 def evaluate(topics_path="mallet-baseline/output/topic_words.txt",
@@ -44,23 +44,21 @@ def evaluate(topics_path="mallet-baseline/output/topic_words.txt",
     topics_text = f.read()
     # NOTE: n is the number of top words to consider. Scholar will list the top 100 terms
     # however our vocab may be too small to even encompass that
-    topics_list = [line.split(" ") for line in topics_text.split("\n")]
+    topics_list = [line.split(" ") for line in topics_text.split("\n") if line]
     in_vocab = 0
     total_vocab = 0
     out_vocab = 0
     for topic in topics_list:
-        if len(topic) > 1:
-            for term in topic[:n]:
-                total_vocab += 1
-                if embeddings_dict.get(term):
-                    in_vocab += 1
-                else:
-                    out_vocab += 1
+        for term in topic[:n]:
+            total_vocab += 1
+            if embeddings_dict.get(term):
+                in_vocab += 1
+            else:
+                out_vocab += 1
     print(f"Total {total_vocab}, In {in_vocab}, Out: {out_vocab}")
     cos_sims = []
     for topic in topics_list:
-        if len(topic) > 1:
-            cos_sims.append(calculate_topic_avg_cosine(topic, embeddings_dict))
+        cos_sims.append(calculate_topic_avg_cosine(topic, embeddings_dict, n=n))
     print("Cos Sim of topics: {}".format(cos_sims))
     print(f"Average Cos Sim {sum(cos_sims)/len(cos_sims)}")
 
