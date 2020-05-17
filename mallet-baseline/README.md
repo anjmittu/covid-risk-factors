@@ -37,3 +37,8 @@ Find the average cos sim
 $ python ../data/evaluate_results.py -p mallet-baseline/output/topic_words.txt -e data/embeddings/glove.6B.50d.txt
 ```
 
+To find the UMass score, run the topic_coherence.py script in the data directory
+``
+$ python topic_coherence.py -p mallet-baseline/output/topic_words.txt
+``
+
