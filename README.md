@@ -13,3 +13,12 @@ $ docker run -it --rm -v `pwd`:/usr/src/myapp -w /usr/src/myapp covid_risk_facto
 
 Note: Before running, download the data from https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge and
 place it in the directory `covid-risk-factors/data/cord-19/`
+You can then run a quick preprocessing script to make this aligned with what Mallet is expecting as input.
+You can run scripts `metalda/preprocess_papers_epoch.py` for epoch labelling or `metalda/preprocess_papers.py` for institutional labelling.
+`python3 metalda/preprocess_papers_epoch.py` and `python3 metalda/preprocess_papers.py`
+Resulting files should live in `./data/epoch_mallet_inputs` for epochs and `data/mallet/papers.csv` for institutions, please double check that this is the case.
+
+Once you're in the docker container, you should have all the requisite Java dependencies to run Mallet.
+```
+$ ./exec.sh
+```
