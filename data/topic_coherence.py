@@ -15,7 +15,7 @@ def evaluate(topics_path="mallet-baseline/output/topic_words.txt"):
 
     corpus = pickle.load(open("corpus.p", "rb"))
     print("Read in corpus")
-    with open(os.path.join(PROJECT_ROOT, "metalda/institutions/output/outputs_a0_b0_2/train_alphabet.txt")) as f:
+    with open(os.path.join(PROJECT_ROOT, "results/saved_30_topics_metalda_external_disease_epoch/train_alphabet.txt")) as f:
         wrds = [line for line in f.read().split("\n")]
     dct = Dictionary([wrds])
     print("Created dictionary")

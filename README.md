@@ -14,6 +14,11 @@ $ docker run -it --rm -v `pwd`:/usr/src/myapp -w /usr/src/myapp covid_risk_facto
 Note: Before running, download the data from https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge and
 place it in the directory `covid-risk-factors/data/cord-19/`
 
+More information on how to run each model can be found under it's directory:
+* Mallet baseline: `mallet-baseline/`
+* MetaLDA with institutions: `metaLDA/institutions/`
+* MetaLDA with epochs: `metaLDA/epochs/`
+
 ## SCHOLAR
 Code in `scholar` taken from https://github.com/dallascard/scholar.
 
@@ -34,4 +39,6 @@ Scholar then requires some preprocessing on top of the json lines file
 
 Then to run the scholar model itself (this example runs the model with both metadata attributes as covariates)
 `python run_scholar.py data/scholar/processed/ -k 30 -o results/output_smallV_30_both --topic-covars disease_epoch,top_authors_institution`
+
+
 
