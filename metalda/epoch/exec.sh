@@ -5,21 +5,21 @@ export MALLET_EXEC='mallet'
 
 # prepare training/testing documents
 dataset='cord-19'
-mallet import-file --input ./data/epoch_mallet_inputs/train/train.txt \
---output ./data/$dataset/train.mallet \
+mallet import-file --input ../../data/epoch/epoch_mallet_inputs/train/train.txt \
+--output ../../data/epoch/train.mallet \
 --label-as-features --keep-sequence --remove-stopwords --line-regex '([^\t]+)\t([^\t]+)\t(.*)'
 #
-mallet import-file --input ./data/epoch_mallet_inputs/test/test.txt \
---output ./data/$dataset/test.mallet \
+mallet import-file --input ../../data/epoch/epoch_mallet_inputs/test/test.txt \
+--output ../../data/epoch/test.mallet \
 --label-as-features --keep-sequence --remove-stopwords --line-regex '([^\t]+)\t([^\t]+)\t(.*)'
 #
 # # prepare word features
 #
 java -cp /opt/MetaLDA/target/metalda-0.1-jar-with-dependencies.jar topicmodels.BinariseWordEmbeddings \
---train-docs ./data/$dataset/train.mallet \
---test-docs ./data/$dataset/test.mallet \
---input ./data/$dataset/raw_embeddings.txt \
---output ./data/$dataset/binary_embeddings.txt
+--train-docs ../../data/epoch/train.mallet \
+--test-docs ../../data/epoch/test.mallet \
+--input ../../data/embeddings/glove.6B.300d.txt \
+--output ../../data/epoch/binary_embeddings.txt
 #
 # echo 'binarising word embeddings finished ...'
 #
@@ -35,9 +35,9 @@ savedir=./save && mkdir -p $savedir;
 
 #java8 if using locally... Calvin was having issues running this with newest java
 java -Xmx8g -cp /opt/MetaLDA/target/metalda-0.1-jar-with-dependencies.jar topicmodels.MetaLDATrain \
---train-docs ../data/$dataset/train.mallet \
+--train-docs ../../data/epoch/train.mallet \
 --num-topics $topics \
---word-features ../data/$dataset/binary_embeddings.txt \
+--word-features ../../data/epoch/binary_embeddings.txt \
 --save-folder $savedir \
 --sample-alpha-method $alphamethod \
 --sample-beta-method $betamethod
