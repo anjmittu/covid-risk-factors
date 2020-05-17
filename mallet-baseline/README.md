@@ -1,6 +1,6 @@
 # Mallet Baseline
 
-## Run a topic model on only the full papers
+## Run a topic model
 ```
 $ cd mallet-baseline
 $ python3 preprocess_papers.py
